@@ -16,16 +16,21 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "Mail-Chimp2",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/import.pl"
+  ],
   "LICENSE" => "perl",
   "NAME" => "Mail::Chimp2",
   "PREREQ_PM" => {
     "Data::Dump" => 0,
     "Mouse" => 0,
-    "Web::API" => 0
+    "Text::CSV" => 0,
+    "Web::API" => 0,
+    "lib" => 0,
+    "strict" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.1",
+  "VERSION" => "0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }

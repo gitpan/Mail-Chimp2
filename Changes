@@ -3,8 +3,60 @@ Changes from 2012-12-30 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.1 at 2013-12-30 01:09:01 +0000
+version 0.2 at 2013-12-30 02:15:49 +0000
 ----------------------------------------
+
+  Change: bd37d11155ec96c2c55ce550a0e2adc00161a906
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 15:15:42 +0000
+
+    dist.ini tuning 
+
+----------------------------------------
+version 0.1 at 2013-12-30 02:07:46 +0000
+----------------------------------------
+
+  Change: 19630a72c1477e1b9786ca4484a0b0de00cacfa0
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 15:07:46 +0000
+
+    satisfy Perl::Critic 
+
+  Change: 498d0366540c7f3d557472c4debffafca3d7c850
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 15:06:45 +0000
+
+    satisfy Perl::Critic 
+
+  Change: b6354b84b95bb94e2ee1960448314c7ff1afa84a
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 15:04:55 +0000
+
+    satisfy Perl::Critic 
+
+  Change: 7f8a66d467bb9446b13268c4af1e8571130edb09
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 14:57:36 +0000
+
+    satisfy Perl::Critic 
+
+  Change: 23e4952526c167598569a5ca66e092a3ed9afd30
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 14:51:07 +0000
+
+    satisfy dzil 
+
+  Change: f6f3c7b265d7afa904b6b761ee49019fe03a9edc
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 14:47:53 +0000
+
+    added a basic CSV importer 
+
+  Change: f0bd2c47282eaa94f0ceb8f735e234334e2bf40c
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2013-12-30 14:15:30 +0000
+
+    added some docs 
 
   Change: 8fae91d16bda253699c299fff400e4962feb40a8
   Author: Lenz Gschwendtner <lenz@springtimesoft.com>
