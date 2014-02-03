@@ -5,7 +5,7 @@ use Mouse;
 
 # ABSTRACT: Mailchimp V2 API
 
-our $VERSION = '0.2'; # VERSION
+our $VERSION = '0.3'; # VERSION
 
 with 'Web::API';
 use Data::Dump;
@@ -56,7 +56,8 @@ sub commands {
 sub BUILD {
     my ($self) = @_;
 
-    (my $_key, $self->dc) = split(/-/, $self->api_key);
+    my ($_key, $_dc) = split(/-/, $self->api_key);
+    $self->dc($_dc) if $_dc;
     $self->user_agent(__PACKAGE__ . ' ' . $Mail::Chimp2::VERSION);
     $self->strict_ssl(1);
     $self->content_type('application/json');
@@ -76,13 +77,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Mail::Chimp2 - Mailchimp V2 API
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 SYNOPSIS
 
