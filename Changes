@@ -3,7 +3,23 @@ Changes from 2013-02-03 00:00:00 +0000 to present.
 ==================================================
 
 ----------------------------------------
-version 0.3 at 2014-02-03 23:48:28 +0000
+version 0.4 at 2014-02-03 23:54:32 +0000
+----------------------------------------
+
+  Change: 0b84e80feec970dab51dd541315867fd16069160
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2014-02-04 12:54:18 +0000
+
+    push a latest branch that can be installed from 
+
+  Change: 8aa81872540af108ade2f376634384c672d03710
+  Author: Lenz Gschwendtner <lenz@springtimesoft.com>
+  Date : 2014-02-04 12:48:53 +0000
+
+    v0.3 
+
+----------------------------------------
+version 0.3 at 2014-02-03 23:48:16 +0000
 ----------------------------------------
 
   Change: 4481048dc7819ec3e7bdf20373b24d35e5b4f749
